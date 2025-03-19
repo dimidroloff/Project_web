@@ -1,0 +1,65 @@
+@import url('variables.css');
+/* variable main */
+.leftBlock {
+    display: flex; /* Размещаем элементы в строку */
+    justify-content: center; /* Центрируем весь блок по горизонтали */
+    gap: 38px; /* Отступ между прямоугольником и картинкой */
+    margin: 50px auto; /* Центрируем по горизонтали с небольшим отступом сверху */
+}
+.leftTextBlock{
+    width: 545px; /* Фиксированная ширина */
+    height: 286px; /* Фиксированная высота */
+    background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачности */
+    padding: 30px; /* Внутренние отступы */
+    display: flex;
+    flex-direction: column; /* Текст и кнопка располагаются вертикально */
+    justify-content: space-between; /* Размещаем текст сверху, а кнопку снизу */
+}
+.leftTextBlock p {
+    color: white; /* Белый текст */
+    font-size: 24px;
+    margin-bottom: auto; /* Отправляем текст вверх */
+    font-family: 'sans_serif_plus_7', Regular;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.leftButton {
+    background: var(--main-yellow); /* Жёлтая кнопка */
+    color: black;
+    padding: 10px 20px;
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 0 20px; /* Закругляем только правый нижний угол */
+    align-self: flex-start; /* Прижимаем кнопку к левому краю */
+    font-family: 'DaMiOne';
+    font-size: 21px;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+.image {
+    height: 346px; /* Делаем высоту картинки такой же, как у блока */
+    width: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.rightButton {
+    background: var(--main-yellow); /* Жёлтая кнопка */
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 0 20px 0; /* Закругляем только правый нижний угол */
+    align-self: flex-start; /* Прижимаем кнопку к левому краю */
+    font-family: 'DaMiOne';
+    font-size: 21px;
+    text-decoration: underline;
+    -webkit-text-stroke: 0.5px #000000;
+}
+
+
+.footer {
+    background: url("../assets/background-main.png") center/cover no-repeat; 
+}
+
