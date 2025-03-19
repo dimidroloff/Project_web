@@ -1,37 +1,37 @@
 @import url('variables.css');
 /* variable main */
 .leftBlock {
-    display: flex; /* Размещаем элементы в строку */
-    justify-content: center; /* Центрируем весь блок по горизонтали */
-    gap: 38px; /* Отступ между прямоугольником и картинкой */
-    margin: 50px auto; /* Центрируем по горизонтали с небольшим отступом сверху */
+    display: flex; 
+    justify-content: center;
+    gap: 38px; 
+    margin: 50px auto;
 }
 .leftTextBlock{
-    width: 545px; /* Фиксированная ширина */
-    height: 286px; /* Фиксированная высота */
-    background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачности */
-    padding: 30px; /* Внутренние отступы */
+    width: 545px; 
+    height: 286px; 
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 30px;
     display: flex;
-    flex-direction: column; /* Текст и кнопка располагаются вертикально */
-    justify-content: space-between; /* Размещаем текст сверху, а кнопку снизу */
+    flex-direction: column; 
+    justify-content: space-between; 
 }
 .leftTextBlock p {
-    color: white; /* Белый текст */
+    color: white; 
     font-size: 24px;
-    margin-bottom: auto; /* Отправляем текст вверх */
+    margin-bottom: auto;
     font-family: 'sans_serif_plus_7', Regular;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .leftButton {
-    background: var(--main-yellow); /* Жёлтая кнопка */
+    background: var(--main-yellow);
     color: black;
     padding: 10px 20px;
     margin-left: auto;
     border: none;
     cursor: pointer;
-    border-radius: 0 0 0 20px; /* Закругляем только правый нижний угол */
-    align-self: flex-start; /* Прижимаем кнопку к левому краю */
+    border-radius: 0 0 0 20px; 
+    align-self: flex-start; 
     font-family: 'DaMiOne';
     font-size: 21px;
     text-decoration: underline;
@@ -39,19 +39,19 @@
 }
 
 .image {
-    height: 346px; /* Делаем высоту картинки такой же, как у блока */
+    height: 346px; 
     width: auto;
     object-fit: cover;
     object-position: 50% 50%;
 }
 .rightButton {
-    background: var(--main-yellow); /* Жёлтая кнопка */
+    background: var(--main-yellow); 
     color: black;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    border-radius: 0 0 20px 0; /* Закругляем только правый нижний угол */
-    align-self: flex-start; /* Прижимаем кнопку к левому краю */
+    border-radius: 0 0 20px 0;
+    align-self: flex-start;
     font-family: 'DaMiOne';
     font-size: 21px;
     text-decoration: underline;

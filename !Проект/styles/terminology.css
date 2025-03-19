@@ -6,10 +6,10 @@
 /* variable main */
 .centerBlock {
     height: 210px;
-    display: flex; /* Размещаем элементы в строку */
-    justify-content: center; /* Центрируем весь блок по горизонтали */
-    gap: 38px; /* Отступ между прямоугольником и картинкой */
-    margin: 50px auto; /* Центрируем по горизонтали с небольшим отступом сверху */
+    display: flex; 
+    justify-content: center; 
+    gap: 38px;
+    margin: 50px auto; 
 }
 
 #centerBlock2 {
@@ -36,12 +36,12 @@
 }
 
 .TextBlock{
-    width: 605px; /* Фиксированная ширина */
-    height: auto; /* Фиксированная высота */
-    background: rgba(0, 0, 0, 0.5); /* Черный фон с 50% прозрачности */
-    padding: 40px; /* Внутренние отступы */
+    width: 605px; 
+    height: auto; 
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px; 
     display: flex;
-    flex-direction: column; /* Текст и кнопка располагаются вертикально */
+    flex-direction: column;
     border: 1px solid ;
     background: linear-gradient(#000a13, #000a13) padding-box,
               linear-gradient(90deg, var(--main-yellow), rgba(153, 117, 0, 0)) border-box;
@@ -49,15 +49,15 @@
 }
 
 .titleBlock{
-    color: white; /* Белый текст */
+    color: white; 
     font-size: 32px;
-    margin-bottom: auto; /* Отправляем текст вверх */
+    margin-bottom: auto; 
     font-family: 'sans_serif_plus_7', Regular;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 .description{
-    color: white; /* Белый текст */
+    color: white; 
     font-size: 24px;
     font-family: 'sans_serif_plus_7', Regular;
     margin-top: 0px;
@@ -66,7 +66,7 @@
 }
 
 .image {
-    height: auto; /* Делаем высоту картинки такой же, как у блока */
+    height: auto; 
     width: 568px;
     object-fit: cover;
     object-position: 50% 50%;
